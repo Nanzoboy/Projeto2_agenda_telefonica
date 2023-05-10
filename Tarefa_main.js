@@ -34,29 +34,3 @@ function atualizaTabela(){
     const listaContatos = document.querySelector('tbody')
     listaContatos.innerHTML = linhas
 }
-
-
-
-
-
-/*function totalContatos(){
-    let somaContatos = 0
-    for(let i = 0; i < nome.length; i++){
-        somaContatos += nome[i]
-    }
-    return somaContatos + nome.length
-}
-
-function qtdContatos(){
-    const montante = totalContatos()
-    document.getElementById('qtdContato').innerHTML = montante
-}
-function somar(){
-    let contatos = document.getElementById('input-name').value
-    let soma = 0
-    for(let i = 0; i < contatos.length; i++){
-        soma += parseInt(contatos[i])
-    }
-    document.getElementById('qtdContato').innerHTML = soma
-}
-*/
